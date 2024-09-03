@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcConfig.Service";
+
+package config;
+
+service Configs 
+{
+	rpc GetAllTenantConfigs (GetAllTenantConfigsRequest) returns (GetAllTenantConfigsResponse);
+}
+
+message GetAllTenantConfigsRequest
+{
+}
+
+message GetAllTenantConfigsResponse
+{
+	repeated GetTenantConfigResponse TenantConfigs = 1;
+}
+
+message GetTenantConfigResponse
+{
+	string TenantId = 1;
+	string TenantName = 2;
+}

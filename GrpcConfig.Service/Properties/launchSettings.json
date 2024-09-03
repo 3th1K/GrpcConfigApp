@@ -1,0 +1,31 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5049",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "TENANT_CONFIG_1": "{\"TenantId\":\"1\",\"TenantName\":\"Tenant 1\"}",
+        "TENANT_CONFIG_2": "{\"TenantId\":\"2\",\"TenantName\":\"Tenant 2\"}",
+        "TENANT_CONFIG_3": "{\"TenantId\":\"3\",\"TenantName\":\"Tenant 3\"}",
+        "TENANT_CONFIG_4": "{\"TenantId\":\"4\",\"TenantName\":\"Tenant 4\"}"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7150;http://localhost:5049",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "TENANT_CONFIG_1": "{\"TenantId\":\"1\",\"TenantName\":\"Tenant 1\"}",
+        "TENANT_CONFIG_2": "{\"TenantId\":\"2\",\"TenantName\":\"Tenant 2\"}",
+        "TENANT_CONFIG_3": "{\"TenantId\":\"3\",\"TenantName\":\"Tenant 3\"}",
+        "TENANT_CONFIG_4": "{\"TenantId\":\"4\",\"TenantName\":\"Tenant 4\"}"
+      }
+    }
+  }
+}
